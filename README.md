@@ -8,3 +8,9 @@ collection of all the JavaScript projects that I have done.
 
 ### 1 minute Typing-Test Web App
 [Typing Test](https://virtualwiz1.github.io/js-projects/typingtest)
+
+### MCQ Quiz App
+[Quiz App](https://virtualwiz1.github.io/js-projects/quizapp)
+
+### Gradient Color Generator
+[Gradient Generator](https://virtualwiz1.github.io/js-projects/gradientGenerator)
