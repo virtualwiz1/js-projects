@@ -14,3 +14,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Gradient Color Generator
 [Gradient Generator](https://virtualwiz1.github.io/js-projects/gradientGenerator)
+
+### Simple Pass N Play TicTacToe
+[TicTacToe](https://virtualwiz1.github.io/js-projects/tictactoe)
