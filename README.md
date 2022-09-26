@@ -20,3 +20,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Random Jokes Generator
 [Joke Generator](https://virtualwiz1.github.io/js-projects/jokeGenerator)
+
+### Dictionary App
+[Dictionary App](https://virtualwiz1.github.io/js-projects/dictionaryapp)
