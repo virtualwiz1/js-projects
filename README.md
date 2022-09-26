@@ -17,3 +17,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Simple Pass N Play TicTacToe
 [TicTacToe](https://virtualwiz1.github.io/js-projects/tictactoe)
+
+### Random Jokes Generator
+[Joke Generator](https://virtualwiz1.github.io/js-projects/jokeGenerator)
