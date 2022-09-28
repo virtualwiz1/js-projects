@@ -23,3 +23,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Dictionary App
 [Dictionary App](https://virtualwiz1.github.io/js-projects/dictionaryapp)
+
+### Calculator App
+[Calculator App](https://virtualwiz1.github.io/js-projects/calculator)
