@@ -32,6 +32,7 @@
   .search-container input {
     font-size: 1em;
     padding: 0.6em;
+    background-color: #F9F9F9;
     border: none;
     outline: none;
     border-bottom: 2px solid #F999B7;
