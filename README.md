@@ -26,3 +26,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Calculator App
 [Calculator App](https://virtualwiz1.github.io/js-projects/calculator)
+
+### Movies Rating/Review Guide App
+[Movie Guide App](https://virtualwiz1.github.io/js-projects/moviesguideapp)
