@@ -31,10 +31,10 @@ btn.addEventListener("click", () => {
                     <p>/${data[0].phonetic}/</p>
                 </div>
                 <p class="word-meaning">
-                   ${data[0].meanings[0].definitions[0].definition}
+                   ${data[0].meanings[0].definitions[i].definition}
                 </p>
                 <p class="word-example">
-                    ${data[0].meanings[0].definitions[0].example || ""}
+                    ${data[0].meanings[0].definitions[i].example || ""}
                 </p>`;
                     return;
                 } else {
