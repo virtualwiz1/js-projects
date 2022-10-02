@@ -3,13 +3,23 @@ const result = document.getElementById("result");
 const sound = document.getElementById("sound");
 const btn = document.getElementById("search-btn");
 
+var soundsrc = '';
+
 btn.addEventListener("click", () => {
     let inpWord = document.getElementById("inp-word").value;
+    console.log(inpWord);
     fetch(`${url}${inpWord}`)
         .then((response) => response.json())
         .then((data) => {
             console.log(data);
-            result.innerHTML = `
+            
+            for (let i = 0; i < 6; i++) {
+                if (data[0].phonetics[i].audio != '' || data[0].meanings[0].definitions[i].definition != '' || data[0].meanings[0].definitions[i].example != '') {
+                    soundsrc = data[0].phonetics[i].audio;
+                    console.log(soundsrc);
+                    sound.setAttribute("src", `${soundsrc}`);
+
+                    result.innerHTML = `
             <div class="word">
                     <h3>${inpWord}</h3>
                     <button onclick="playSound()">
@@ -26,7 +36,13 @@ btn.addEventListener("click", () => {
                 <p class="word-example">
                     ${data[0].meanings[0].definitions[0].example || ""}
                 </p>`;
-            sound.setAttribute("src", `${data[0].phonetics[1].audio}`);
+                    return;
+                } else {
+                    soundsrc = '';
+                }
+            }
+
+            console.log(sound);
         })
         .catch(() => {
             result.innerHTML = `<h3 class="error">Couldn't Find The Word</h3>`;
