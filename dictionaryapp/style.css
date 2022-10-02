@@ -34,8 +34,14 @@ body {
     border-bottom: 3px solid #8754ff;
     font-size: 16px;
     background-color: #D2DAFF;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); */
 }
+
+.search-box input:focus{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
 .search-box button {
     padding: 15px 0;
     width: 25%;
@@ -45,7 +51,19 @@ body {
     color: #fff;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    transition: 0.5s;
 }
+
+#search-btn:hover{
+    background-color: #8E2DE2;
+}
+
+#search-btn:focus{
+    background-color: #8E2DE2;
+    box-shadow: none;
+    transition: 0.5s;
+}
+
 .result {
     position: relative;
 }
