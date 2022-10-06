@@ -29,3 +29,15 @@ collection of all the JavaScript projects that I have done.
 
 ### Movies Rating/Review Guide App
 [Movie Guide App](https://virtualwiz1.github.io/js-projects/moviesguideapp)
+
+### Recipe Generator App
+[Recipe Generator App](https://virtualwiz1.github.io/js-projects/recipeGenerator)
+
+### Drawing Baord | Scribble
+[Drawing Board](https://virtualwiz1.github.io/js-projects/drawboard)
+
+### Pixel Art Board
+[Pixel Art Board](https://virtualwiz1.github.io/js-projects/pixelDrawBoard)
+
+### Simple Rich Text Editor | Notepad
+[Rich Text Editor](https://virtualwiz1.github.io/js-projects/textEditor)
