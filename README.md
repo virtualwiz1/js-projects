@@ -41,3 +41,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Simple Rich Text Editor | Notepad
 [Rich Text Editor](https://virtualwiz1.github.io/js-projects/textEditor)
+
+### Simple Hangman Game
+[Hangman game](https://virtualwiz1.github.io/js-projects/hangman)
