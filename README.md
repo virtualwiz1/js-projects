@@ -44,3 +44,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Simple Hangman Game
 [Hangman game](https://virtualwiz1.github.io/js-projects/hangman)
+
+### Simple Memory Card FLip Game
+[Memory game](https://virtualwiz1.github.io/js-projects/memoryGame)
