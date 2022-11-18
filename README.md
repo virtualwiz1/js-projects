@@ -50,3 +50,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Simple QR Scanner and Generator
 [QR scanner and generator](https://virtualwiz1.github.io/js-projects/qrReaderNGenerator)
+
+### Trending Form Concept
+[Trending SignUp Form Concept](https://virtualwiz1.github.io/js-projects/smartForm)
