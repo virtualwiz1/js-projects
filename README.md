@@ -47,3 +47,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Simple Memory Card FLip Game
 [Memory game](https://virtualwiz1.github.io/js-projects/memoryGame)
+
+### Simple QR Scanner and Generator
+[QR scanner and generator](https://virtualwiz1.github.io/js-projects/qrReaderNGenerator)
