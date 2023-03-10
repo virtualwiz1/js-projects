@@ -53,3 +53,6 @@ collection of all the JavaScript projects that I have done.
 
 ### Trending Form Concept
 [Trending SignUp Form Concept](https://virtualwiz1.github.io/js-projects/smartForm)
+
+### Text To Speech
+[Text To Speech Converter](https://virtualwiz1.github.io/js-projects/textToSpeech)
