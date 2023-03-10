@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Text to Speech Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Text to Speech Converter</h1>
+  <div>
+    <textarea id="text-input" rows="10" cols="50"></textarea>
+  </div>
+
+  <div>
+    <label for="voice-select">Select a voice:</label>
+    <select id="voice-select"></select>
+  </div>
+
+  <div>
+    <label for="speed-input">Select Speed: (0-10x)</label>
+    <input type="range" id="speed-input" min="0.0" max="10" value="1" step="0.5">
+    <div class="output" id="speedDisplay">Speed: 1x</div>
+</div>
+
+  <div>
+    <button id="play-button">▶ Play</button>
+    <button id="pause-button">II Pause</button>
+    <button id="resume-button">▶ Resume</button>
+    <button id="stop-button">&#9632; Stop</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
